@@ -8,8 +8,9 @@
       <td><%= tweet.tweet %></td>
       <td><%= link_to 'Show', tweet %></td>
       <td><%= link_to 'Edit', edit_tweet_path(tweet) %></td>
-      <td><%= link_to 'Destroy', tweet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <td><%= link_to 'Destroy', tweet, method: :delete, data: { turbo_method: :delete, turbo_confirm: "Are you sure you want to delete this post?" } %></td>
     </tr>
+    <br>
   <% end %>
 </div>
 
