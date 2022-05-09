@@ -282,7 +282,7 @@ DEPENDENCIES
   debug
   devise (~> 4.8, >= 4.8.1)
   gravatar_image_tag (~> 1.2)
-  guard (~> 2.18)
+  guard (~> 2.14)
   guard-livereload (~> 2.5, >= 2.5.2)
   importmap-rails
   jbuilder
