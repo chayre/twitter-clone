@@ -16,3 +16,9 @@
 	margin-right: 10px;
 	margin-bottom: 5px;
   }
+
+// get rid of default simple form ".." underneath required fields' "*"
+form abbr[title] {
+    border-bottom: none !important;
+    text-decoration: none !important;
+  }
