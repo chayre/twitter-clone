@@ -10,3 +10,9 @@
 .notification:not(:last-child) {
 	margin-bottom: 0;
 }
+
+// margin to the right and bottom of checkbox
+.boolean {  
+	margin-right: 10px;
+	margin-bottom: 5px;
+  }
